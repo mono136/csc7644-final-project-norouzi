@@ -74,8 +74,8 @@ This project is submitted as the final project for **CSC 7644: Applied LLM Devel
    OPENROUTER_API_KEY=your_openrouter_key  
    OPENAI_API_KEY=your_openai_key  
 3. Select ONE provider by uncommenting:
-   LLM_PROVIDER=openrouter  
-   # LLM_PROVIDER=openai  
+   #LLM_PROVIDER=openrouter  
+   #LLM_PROVIDER=openai  
 5. Save the file.
 
 Note:
