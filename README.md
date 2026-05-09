@@ -64,6 +64,12 @@ This project is submitted as the final project for **CSC 7644: Applied LLM Devel
 2. Open a terminal (Command Prompt, PowerShell, or Terminal) and navigate to the project root directory.
 3. Install the required dependencies:
     pip install -r requirements.txt`
+4. *Dataset (Important)*  
+    The battery datasets stored in the `data/` directory are sourced from and can be directly downloaded from the original source:
+    Saha, B., & Goebel, K. (2007). *Battery Data Set*. NASA AMES Prognostics Data Repository. https://phm-datasets.s3.amazonaws.com/NASA/5.+Battery+Data+Set.zip  
+    If you prefer to download the datasets from the original source, follow these steps:
+    - Unzip the dataset
+    - Copy the required `.mat` files into the `data/` folder of this project
 
 ---
 
