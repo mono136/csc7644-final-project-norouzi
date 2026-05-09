@@ -69,14 +69,15 @@ This project is submitted as the final project for **CSC 7644: Applied LLM Devel
 
 ### Environment Setup
 
-1. Copy the contents of `.env.example` into `.env`.
-2. Add your API key(s):
+1. Create a `.env` file in the project root directory.
+2. Copy the contents of `.env.example` into `.env`.
+3. Add your API key(s):
    OPENROUTER_API_KEY=your_openrouter_key  
    OPENAI_API_KEY=your_openai_key  
 4. Select ONE provider by uncommenting:
    #LLM_PROVIDER=openrouter  
    #LLM_PROVIDER=openai  
-6. Save the file.
+5. Save the file.
 
 Note:
 - You must have a valid API key for the selected provider.
